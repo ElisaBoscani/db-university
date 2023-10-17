@@ -21,3 +21,10 @@ id (BIGINT, NOTNULL, UNIQUE, AUTOINCREMENT, PRIMARYKEY) id_studenti FK id_esami 
 
 relationship
 dipartimento - corsi di laurea -- ONE TO MANY/ corso di laurea - corsi -- ONE TO MANY/ corsi - insegnanti -- MANY TO MANY/ corso di laurea - studenti -- ONE TO MANY/ esami - studenti -- MANY TO MANY corsi - esami -- ONE TO MANY
+
+x windows:
+C:\MAMP\bin\mysql\bin\mysql -u root -p -P 3366
+
+Nb: il -P 3366 é opzionala meno che non hai la porta 3306 o alter settate sul db
+
+- se port é 3306 il valore é di default
