@@ -17,3 +17,6 @@
 /////
 
 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso dilaurea (286)
+   SELECT \* FROM `courses` WHERE period = "I semestre" AND year = 1;
+
+////
